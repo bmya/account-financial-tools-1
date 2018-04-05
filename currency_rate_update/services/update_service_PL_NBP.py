@@ -6,13 +6,13 @@
 from .currency_getter_interface import CurrencyGetterInterface
 
 from datetime import datetime
-from openerp.tools import DEFAULT_SERVER_DATE_FORMAT
+from odoo.tools import DEFAULT_SERVER_DATE_FORMAT
 
 import logging
 _logger = logging.getLogger(__name__)
 
 
-class PL_NBPGetter(CurrencyGetterInterface):
+class PlNbpGetter(CurrencyGetterInterface):
     """Implementation of Currency_getter_factory interface
     for PL NBP service
 

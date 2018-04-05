@@ -5,14 +5,14 @@
 
 from .currency_getter_interface import CurrencyGetterInterface
 
-from openerp import _
-from openerp.exceptions import except_orm
+from odoo import _
+from odoo.exceptions import except_orm
 
 import logging
 _logger = logging.getLogger(__name__)
 
 
-class CA_BOCGetter(CurrencyGetterInterface):
+class CaBocGetter(CurrencyGetterInterface):
     """Implementation of Curreny_getter_factory interface
     for Bank of Canada RSS service
 

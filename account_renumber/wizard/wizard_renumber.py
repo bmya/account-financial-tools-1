@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# © 2009 Pexego Sistemas Informáticos. All Rights Reserved
-# © 2016 Jairo Llopis <jairo.llopis@tecnativa.com>
+# Copyright 2009 Pexego Sistemas Informáticos. All Rights Reserved
+# Copyright 2016 Jairo Llopis <jairo.llopis@tecnativa.com>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 import logging
 from datetime import date
-from openerp import _, api, exceptions, fields, models
+from odoo import _, api, exceptions, fields, models
 
 _logger = logging.getLogger(__name__)
 
@@ -84,10 +84,10 @@ class WizardRenumber(models.TransientModel):
                          ("date_to", ">=", move.date)]
                     )
                     if date_range and date_range not in reset_ranges:
-                        date_range.number_next = self.number_next
+                        date_range.sudo().number_next = self.number_next
                         reset_ranges |= date_range
                 else:
-                    sequence.number_next = self.number_next
+                    sequence.sudo().number_next = self.number_next
                     reset_sequences |= sequence
 
             # Generate (using our own get_id) and write the new move number

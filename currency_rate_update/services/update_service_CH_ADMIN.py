@@ -5,12 +5,12 @@
 from .currency_getter_interface import CurrencyGetterInterface
 import logging
 from datetime import datetime
-from openerp.tools import DEFAULT_SERVER_DATE_FORMAT
+from odoo.tools import DEFAULT_SERVER_DATE_FORMAT
 
 _logger = logging.getLogger(__name__)
 
 
-class CH_ADMINGetter(CurrencyGetterInterface):
+class ChAdminGetter(CurrencyGetterInterface):
     """Implementation of Currency_getter_factory interface
     for Admin.ch service.
     """

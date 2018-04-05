@@ -24,11 +24,39 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
+[account_asset_depr_line_cancel](account_asset_depr_line_cancel/) | 10.0.1.0.0 | Assets Management - Cancel button
+[account_asset_disposal](account_asset_disposal/) | 10.0.1.0.0 | Makes asset close account move automatically
+[account_balance_line](account_balance_line/) | 10.0.1.0.0 | Display balance totals in move line view
+[account_chart_update](account_chart_update/) | 10.0.1.0.1 | Wizard to update a company's account chart from a template
 [account_check_deposit](account_check_deposit/) | 10.0.1.0.0 | Manage deposit of checks to the bank
+[account_credit_control](account_credit_control/) | 10.0.1.3.3 | Account Credit Control
+[account_credit_control_dunning_fees](account_credit_control_dunning_fees/) | 10.0.1.0.0 | Credit control dunning fees
+[account_fiscal_month](account_fiscal_month/) | 10.0.1.0.0 | Provide a fiscal month date range type
 [account_fiscal_position_vat_check](account_fiscal_position_vat_check/) | 10.0.1.0.0 | Check VAT on invoice validation
 [account_fiscal_year](account_fiscal_year/) | 10.0.1.0.0 | Account Fiscal Year
+[account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 10.0.1.0.0 | Account Invoice Constraint Chronology
+[account_invoice_currency](account_invoice_currency/) | 10.0.1.1.0 | Company currency in invoices
+[account_invoice_tax_required](account_invoice_tax_required/) | 10.0.1.0.1 | Tax required in invoice
+[account_journal_lock_date](account_journal_lock_date/) | 10.0.1.0.0 | Lock each journal independently
+[account_lock_date_update](account_lock_date_update/) | 10.0.1.0.0 | Allow an Account adviser to update locking date without having access to all technical settings
+[account_move_batch_validate](account_move_batch_validate/) | 10.0.1.0.0 | Account Move Batch Validate
+[account_move_fiscal_month](account_move_fiscal_month/) | 10.0.1.0.0 | Display the fiscal month on journal entries/item
+[account_move_fiscal_year](account_move_fiscal_year/) | 10.0.1.0.0 | Display the fiscal year on journal entries/item
+[account_move_line_payable_receivable_filter](account_move_line_payable_receivable_filter/) | 10.0.1.0.0 | Filter your Journal Items per payable and receivable account
+[account_move_line_tax_editable](account_move_line_tax_editable/) | 10.0.1.0.0 | Allows to edit taxes on non-posted account move lines
+[account_move_locking](account_move_locking/) | 10.0.1.0.0 | Move locked to prevent modification
+[account_move_template](account_move_template/) | 10.0.2.0.0 | Templates for recurring Journal Entries
+[account_netting](account_netting/) | 10.0.1.0.0 | Compensate AR/AP accounts from the same partner
 [account_partner_required](account_partner_required/) | 10.0.1.0.0 | Adds an option 'partner policy' on account types
+[account_permanent_lock_move](account_permanent_lock_move/) | 10.0.1.0.0 | Permanent Lock Move
+[account_permanent_lock_move_update](account_permanent_lock_move_update/) | 10.0.1.0.0 | Allow an Account adviser to update permanent lock date without having access to all technical settings
+[account_renumber](account_renumber/) | 10.0.1.0.1 | Account Renumber Wizard
+[account_reversal](account_reversal/) | 10.0.1.0.0 | Wizard for creating a reversal account move
+[account_tag_category](account_tag_category/) | 10.0.1.0.0 | Group account tags by categories
+[account_type_inactive](account_type_inactive/) | 10.0.1.0.0 | Allows to set account type to inactive
 [account_type_menu](account_type_menu/) | 10.0.1.0.0 | Adds a menu entry for Account Types
+[base_vat_optional_vies](base_vat_optional_vies/) | 10.0.1.0.0 | Optional validation of VAT via VIES
+[currency_rate_update](currency_rate_update/) | 10.0.1.0.0 | Currency Rate Update
 
 
 Unported addons
@@ -37,36 +65,17 @@ addon | version | summary
 --- | --- | ---
 [account_asset_management](account_asset_management/) | 8.0.2.6.0 (unported) | Assets Management
 [account_asset_management_xls](account_asset_management_xls/) | 8.0.0.1.0 (unported) | Assets Management Excel reporting
-[account_auto_fy_sequence](account_auto_fy_sequence/) | 8.0.0.1.0 (unported) | Automatic Fiscal Year Sequences
-[account_balance_line](account_balance_line/) | 8.0.1.1.0 (unported) | Display balance totals in move line view
 [account_cancel_invoice_check_payment_order](account_cancel_invoice_check_payment_order/) | 1.0 (unported) | Cancel invoice, check on payment order
 [account_cancel_invoice_check_voucher](account_cancel_invoice_check_voucher/) | 1.0 (unported) | Cancel invoice, check on bank statement
-[account_chart_update](account_chart_update/) | 8.0.1.2.0 (unported) | Detect changes and update the Account Chart from a template
 [account_constraints](account_constraints/) | 8.0.1.1.0 (unported) | Account Constraints
-[account_credit_control](account_credit_control/) | 8.0.0.3.0 (unported) | Account Credit Control
-[account_credit_control_dunning_fees](account_credit_control_dunning_fees/) | 8.0.0.1.0 (unported) | Credit control dunning fees
 [account_default_draft_move](account_default_draft_move/) | 8.0.1.0.0 (unported) | Move in draft state by default
-[account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 8.0.1.0.0 (unported) | Account Invoice Constraint Chronology
-[account_invoice_currency](account_invoice_currency/) | 8.0.1.0.0 (unported) | Company currency in invoices
-[account_invoice_tax_required](account_invoice_tax_required/) | 8.0.1.0.0 (unported) | Tax required in invoice
 [account_journal_always_check_date](account_journal_always_check_date/) | 8.0.0.1.0 (unported) | Option Check Date in Period always active on journals
-[account_journal_period_close](account_journal_period_close/) | 8.0.1.0.0 (unported) | Account Journal Period Close
-[account_move_batch_validate](account_move_batch_validate/) | 8.0.0.2.0 (unported) | Account Move Batch Validate
 [account_move_line_no_default_search](account_move_line_no_default_search/) | 8.0.0.1.0 (unported) | Move line search view - disable defaults for period and journal
-[account_move_line_payable_receivable_filter](account_move_line_payable_receivable_filter/) | 8.0.1.0.0 (unported) | Filter your Journal Items per payable and receivable account
 [account_move_line_search_extension](account_move_line_search_extension/) | 8.0.0.6.0 (unported) | Journal Items Search Extension
-[account_move_locking](account_move_locking/) | 9.0.1.0.0 (unported) | Move locked to prevent modification
-[account_move_template](account_move_template/) | 8.0.1.0.0 (unported) | Templates for recurring Journal Entries
-[account_permanent_lock_move](account_permanent_lock_move/) | 9.0.1.0.0 (unported) | Permanent Lock Move
-[account_renumber](account_renumber/) | 9.0.1.0.0 (unported) | Account Renumber Wizard
 [account_reset_chart](account_reset_chart/) | 8.0.1.0.0 (unported) | Delete the accounting setup from an otherwise reusable database
-[account_reversal](account_reversal/) | 8.0.1.0.0 (unported) | Account Reversal
-[account_tax_analysis](account_tax_analysis/) | 8.0.1.0.0 (unported) | Tax analysis
-[account_tax_chart_interval](account_tax_chart_interval/) | 8.0.1.0.0 (unported) | Tax chart for a period interval
 [account_tax_update](account_tax_update/) | 1.0.44 (unported) | Update tax wizard
 [async_move_line_importer](async_move_line_importer/) | 0.1.2 (unported) | Asynchronous move/move line CSV importer
 [currency_rate_date_check](currency_rate_date_check/) | 8.0.1.0.0 (unported) | Make sure currency rates used are always up-to-update
-[currency_rate_update](currency_rate_update/) | 9.0.1.0.0 (unported) | Currency Rate Update
 
 [//]: # (end addons)
 
